@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abubakarzahid.okhttp_summer.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Http request"
+        android:layout_marginTop="51dp"
+        android:id="@+id/btnsendrequest"
+        android:layout_centerHorizontal="true"/>
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="json from server"
+       android:inputType="textMultiLine"
+       android:ems="10"
+       android:maxLines="10"
+       android:minLines="3"
+       android:layout_marginTop="143dp"
+       android:id="@+id/etjson"
+       android:layout_below="@+id/btnsendrequest"
+       android:layout_alignParentStart="true"
+       android:layout_marginStart="74dp" />
+</RelativeLayout>
