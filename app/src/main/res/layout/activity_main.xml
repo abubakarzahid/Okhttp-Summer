@@ -7,24 +7,21 @@
     tools:context="com.example.abubakarzahid.okhttp_summer.MainActivity"
     android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Send Http request"
-        android:layout_marginTop="51dp"
-        android:id="@+id/btnsendrequest"
-        android:layout_centerHorizontal="true"/>
-   <EditText
+   <Button
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="json from server"
-       android:inputType="textMultiLine"
-       android:ems="10"
-       android:maxLines="10"
-       android:minLines="3"
-       android:layout_marginTop="143dp"
-       android:id="@+id/etjson"
-       android:layout_below="@+id/btnsendrequest"
-       android:layout_alignParentStart="true"
-       android:layout_marginStart="74dp" />
+       android:layout_marginTop="50dp"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/btnrequest"
+       android:text="Go webservice"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Result"
+        android:id="@+id/txtresponse"
+        android:layout_below="@+id/btnrequest"
+        android:textSize="17sp"
+        android:layout_marginTop="50dp" />
 </RelativeLayout>
